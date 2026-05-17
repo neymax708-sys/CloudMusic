@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediaHub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>MediaHub</h1>
+    <p>Converta e organize seus próprios arquivos</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <input type="file" id="fileInput">
+
+      <select id="formatSelect">
+        <option>MP3</option>
+        <option>MP4</option>
+        <option>WAV</option>
+      </select>
+
+      <button id="convertBtn">Converter</button>
+
+      <div id="result"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
